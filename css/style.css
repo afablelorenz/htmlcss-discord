@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing : border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header{
+    color: white;
+}
+
+header section.upper{
+    background-color: #255ee9;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+header section.jumbo{
+    font-size: 1rem;
+    padding: 6rem;
+    background-image: url(../img/jumbo.png);
+}
+
+ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 0 .5rem;
+}
+
+main > section{
+    padding: 4rem;
+}
+
+div.column{
+    padding: 2rem;
+}
+
+div.column-small{
+    width: 30%;
+}
+
+div.column-big{
+    width: 50%;
+}
+
+section.contact{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.contact .adventure{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.adventure p{
+    padding: 1rem;
+}
+
+footer{
+    background-color: #23272A;
+    color: white;
+    padding:2rem;
+}
+
+footer p{
+    width: 15%;
+}
