@@ -27,13 +27,43 @@ header section.upper{
     background-color: #255ee9;
     padding: 1.5rem 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
+
+header section.upper img{
+    height:1.5rem;
+}
+
 
 header section.jumbo{
     font-size: 1rem;
     padding: 6rem;
     background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+
+
+header section.jumbo h1{
+    font-size: 2.5rem;
+    padding: 1.5rem;
+}
+
+header section.jumbo p{
+    padding: 0.2em;
+}
+
+header div.jumboButtons{
+    padding: 1rem;
+}
+
+header dib.jumboButtons button{
+}
+
+.jumboFlex{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 ul{
